@@ -1,0 +1,16 @@
+/* BMH client packages v0.6 — explicit deliverables and periods */
+.bmh-package{align-items:stretch;gap:10px;min-width:0;height:100%;text-align:left}
+.bmh-package .package-info{min-height:0}
+.bmh-package .package-inclusions{border-top:1px solid #354e60;padding-top:12px;flex:1}
+.package-inclusions-title{display:block;font-size:12px;color:#e9bd7f;font-weight:800;margin-bottom:8px}
+.package-inclusions ul{list-style:none;padding:0;margin:0;display:grid;gap:7px}
+.package-inclusions li{display:flex;justify-content:space-between;align-items:baseline;gap:9px;color:#eef5f9;font-size:12px;line-height:1.55}
+.package-inclusions li span{min-width:0}
+.package-inclusions li small{font-size:10px;color:#b9ceda;white-space:nowrap}
+.package-notincluded,.package-custom{font-size:11px;line-height:1.65;color:#b9cbd7;margin:10px 0 0}
+.package-price-totals{display:grid;gap:9px;padding-top:12px;border-top:1px solid #3a5869;margin-top:auto}
+.package-price-totals>div{display:grid;gap:4px}
+.package-price-totals small{font-size:11px;line-height:1.5;color:#afc5d2}
+.package-price-totals strong{display:block;color:#f3d59f;font-size:14px;line-height:1.5;overflow-wrap:anywhere}
+.bmh-package:focus-visible{outline:3px solid #71ddd0;outline-offset:3px}
+@media(max-width:780px){.package-grid{grid-template-columns:minmax(0,1fr)}.bmh-package{height:auto}}

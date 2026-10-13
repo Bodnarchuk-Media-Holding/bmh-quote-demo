@@ -14,13 +14,13 @@ const BMH_PUBLIC_BANDS={
  print_flyer_design:[150,370],print_card_design:[100,260],print_banner_design:[200,520],
  brand_identity:[580,1950]
 };
-const BMH_METHOD_FACTORS={none:1,canva:0.92,metricool:1,make:1.10,heygen:1.15,openart:1.23,higgsfield:1.30,mixed:1.40,camera:1.25};
 const BMH_SCOPE={state:'ready',channels:1,level:'standard'};
 const BMH_ROUND=n=>Math.round(n/5)*5;
 function BMH_BAND(id,method){
  const b=BMH_PUBLIC_BANDS[id];if(!b)return null;
- const f=BMH_METHOD_FACTORS[method||'none']||1;
- return {low:BMH_ROUND(b[0]*f),high:BMH_ROUND(b[1]*f)};
+ // Execution methods, AI, subcontractors are internal to BMH.
+ // Prices depend only on selected service and visible scope.
+ return {low:BMH_ROUND(b[0]),high:BMH_ROUND(b[1])};
 }
 const BMH_TEXT={
  uk:{step:'00 / ПОТРЕБИ',title:'Що вже маєте?',description:'Початкове налаштування й щомісячний супровід — різні роботи.',state:'Соцмережі',ready:'Уже працюють',optimize:'Потрібна оптимізація',new:'Створити з нуля',channels:'Кількість каналів',level:'Обсяг робіт',basic:'Базовий',standard:'Стандартний',expanded:'Розширений',help:'Супровід уже налаштованого каналу: 300–500 €/місяць. Створення, контент, реклама і відео рахуються окремо.',setup:'Початкове налаштування каналів',net:'без ПДВ',unknown:'ПДВ визначається після перевірки',custom:' + індивідуальні позиції',monthly:'Наступні місяці (без ПДВ)',first:'Перший період (без ПДВ)',once:'Разові послуги і підключення (без ПДВ)',total:'Витрати з рекламним бюджетом (без ПДВ)',tax:'ПДВ після підтвердження статусу'},
@@ -61,7 +61,7 @@ function BMH_CALC(){
 window._compute=BMH_CALC;
 window._bundlePrices=function(){
  const selected=_quote.bundleId,out={};
- for(const p of _bundles){_quote.bundleId=p.id;const r=BMH_CALC();out[p.id]={firstPeriodNet:r.firstLow,firstHigh:r.firstHigh,onceNet:r.onceLow,monthNet:r.monthLow};}
+ for(const p of _bundles){_quote.bundleId=p.id;const r=BMH_CALC();out[p.id]={firstPeriodNet:r.firstLow,firstHigh:r.firstHigh,onceNet:r.onceLow,monthNet:r.monthLow,monthHigh:r.monthHigh};}
  _quote.bundleId=selected;return out;
 };
 // Make legacy displayed catalog starting values consistent with the public range model.
