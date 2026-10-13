@@ -28,3 +28,26 @@ This static site stores no collaborative session in a server or database, has no
 Main business website, SOL, customer records, and paid providers remain untouched.
 
 Revised: 13 October 2026.
+
+
+## v0.7 — launch scenarios and real-world conditions
+
+The public estimator now additionally asks about account access, available photo/video assets, basic brand design, ad account readiness, extra correction rounds, urgency and filming distance. The extra selectors are collapsed by default to keep the phone interface simple.
+
+Pricing rules:
+- Existing managed channels and new channel setup are distinct. PRO includes two managed channels, so if both must be created, setup is calculated for both even if the general selector was left at one.
+- More managed channels than included in a package add a separate monthly line.
+- If raw images or footage are unavailable, a starter content-creation item is added only when the selected package does not already include on-site filming.
+- A new ad account, basic brand kit or extra revision round is shown as a separate, customer-readable service rather than a supplier-specific adjustment.
+- A rush request adds an indicative extra charge to one-time work and is subject to availability.
+- Lost administrator access or a filming location beyond Nürnberg/Fürth/Stein requires individual review; the system does not promise access recovery or falsely represent travel costs as zero.
+- All additions are client-facing **estimates**, never a hidden surcharge. The customer's chosen services, not AI tools/freelancers/agencies, determine the pricing model.
+- The estimated totals are exclusive of VAT because BMH's final tax treatment remains unverified. There is no billing, payment collection or live server collaboration in this public page.
+
+The launch package example at standard scope and existing ready pages, excluding VAT and without paid advertising spend:
+- START: around €520–1,075 once, no recurring fee.
+- BASIC: around €1,055–2,215 first month including a one-time pair of customer-footage edits; ongoing service around €720–1,565/month.
+- PRO: around €2,410–5,275 first month including a single filmed content batch; ongoing service around €1,630–3,620/month.
+These are automated planning results and depend on the selected project options; they are not guaranteed contractual prices.
+
+Market context for Germany (2026): https://outreel.de/reel-erstellen-lassen-kosten/ ; https://starkefilme.de/ratgeber/social-media-betreuung-kosten-monat/ ; https://dremaze.media/blog-posts/social-media-agentur-kosten . Tax status must be verified using applicable German rules, including https://www.gesetze-im-internet.de/ustg_1980/__19.html .
