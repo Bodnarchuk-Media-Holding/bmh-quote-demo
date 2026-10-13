@@ -1,25 +1,30 @@
-# BMH Quote Builder — public price-range preview v0.5
+# BMH Quote Builder — public customer price preview v0.6
 
-This public repository contains an illustrative three-language (UA / EN / DE) service selection and quote estimator for BODNARCHUK MEDIA HOLDING. It is **not** a final offer or invoice. Do not enter real personal data.
+This is a mobile-ready, interactive BODNARCHUK MEDIA HOLDING estimator in Ukrainian, English and German. It is not a signed quote, invoice, payment page, shared session, or approved binding price.
 
-## How it works
+## Customer packages — clear deliverables
 
-- Select the starting condition: accounts already configured, optimization needed, or creation and integration from scratch.
-- Choose 1–4 social channels and project scope: Basic, Standard or Expanded.
-- Select standalone services or packages, video production methods and advertising budget.
-- See **estimated client-facing price bands**. One-time onboarding and monthly support are separate. Social management of an already configured channel is an indicative 300–500 EUR/month under a limited management-only scope; content, video, paid ads, ad spend and additional channels are priced separately.
-- Any print placement, outside talent or complex supplier-dependent scope remains **on request**.
+- **START** (one-time): two short edited videos from client-supplied material, a social channel audit, and one revision round. No monthly management.
+- **BASIC**: every month, eight social posts, management of one existing channel, and one performance report. In the first month only, two short edits from supplied footage.
+- **PRO**: every month, sixteen posts, management of two social channels, Meta Ads management, and one report. One-time: filming and three short videos from the shoot.
+- **CUSTOM / Individuell**: customer chooses individual services instead of a package.
 
-All price bands are **planning hypotheses**, not approved BMH prices. The client-facing preview does **not** include freelance/agency procurement costs, internal hourly rates, supplier quotes, expenses, margin, or business credentials. These belong only in a separate private BMH price engine after owner approval.
+Package cards show **every included line item**, the quantity, one-time or recurring status, a range for the first period, and a separate range for subsequent months where applicable. Monthly content is described as such; filming or editing marked as one-time is **not promised every month**.
 
-Tax treatment / VAT is **unverified**, so this preview shows estimates excluding VAT without assuming 19% or a §19 exemption. Final tax-compliant commercial proposals require confirmed tax status, verified supplier pricing, clear scope and a protected server-side quotation platform.
+## Customer-facing choices
 
-The static preview has no shared database, account login, shared sessions, customer persistence, payments or e-signatures. The complete collaborative staging implementation is kept in a **private** repository. No credentials or customer records are published here.
+- Accounts already running, requiring optimization, or needing first-time creation.
+- Number of channels (1–4) and basic / standard / expanded project scope.
+- Package, additional deliverables, quantities, and separate ad spend.
+- Price ranges and visible deliverables. **No choice or mention of BMH internal AI tools, freelance providers, agency partners, staffing or operational costs.** Production methods do not change client-visible prices.
+- Basic maintenance of an already configured channel can be estimated at 300–500 EUR/month (management only). Additional content, creative, ads and setup are independent products.
 
-## Pricing references (context, not binding BMH offers)
+Prices are **planning estimates, not confirmed BMH offers**. VAT / §19 status is not confirmed, so the model displays indicative amounts excluding VAT without assuming a payable 19%. Custom supplier-dependent services remain on request.
 
-- German supplier example of separate initial social setup and monthly service: https://www.trend-service.de/trend-social-media-service/
-- Reported German small-business management pricing and content limits: https://block.nrw/social-media/
-- Broader agency pricing context: https://www.knuepfer-meinck.de/magazin/social-media-agentur-kosten
+## Technical and privacy boundaries
 
-Last revised: 13 October 2026.
+This static site stores no collaborative session in a server or database, has no protected login, does not collect real customer personal information, and cannot issue invoices or take payments. Don't enter personal information. All private procurement, margin, supplier bids, third-party labor, subscriptions, and other production details belong solely to the isolated, **private** BMH pricing workflow.
+
+Main business website, SOL, customer records, and paid providers remain untouched.
+
+Revised: 13 October 2026.
