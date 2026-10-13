@@ -1,0 +1,13 @@
+/* Client-facing additional conditions, selectable on mobile. */
+.bmh-extra-options{margin-top:16px;padding:16px 18px;border:1px solid #3f6778;border-radius:12px;background:#102b3a}
+.bmh-extra-options summary{cursor:pointer;color:#e8c58c;font-weight:800;font-size:14px;line-height:1.5;list-style:revert}
+.bmh-extra-options[open] summary{margin-bottom:14px}
+.bmh-extra-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;margin:12px 0}
+.bmh-extra-grid label{display:grid;min-width:0;gap:6px;color:#c6d9e2;font-size:12px}
+.bmh-extra-grid select{width:100%;min-width:0;color:#f1f6fa;background:#101d2e}
+.bmh-extra-alert:not(:empty){color:#f9cf8f;font-size:12px;line-height:1.55;border-left:3px solid #f9cf8f;padding-left:9px}
+@media(max-width:560px){.bmh-extra-options{padding:13px}.bmh-extra-grid{grid-template-columns:minmax(0,1fr)}}
+
+/* Keep page horizontal scroll disabled; category tabs remain independently swipeable. */
+html,body{max-width:100%;overflow-x:clip}
+.tabs{max-width:100%;overflow-x:auto;overscroll-behavior-inline:contain}
